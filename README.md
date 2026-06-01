@@ -43,8 +43,9 @@ no-code-ml-app/
     │   ├── ml_engine.py     # Hardened Macro F1 Training Loops & Inference Pipelines
     │   └── database.py      # Session Handlers and Engine Connections
     └── requirements.txt     # Python Dependencies Matchlist
+```
 
-⚙️ Local Installation & Startup Guide
+## ⚙️ Local Installation & Startup Guide
 Follow these instructions to run the application in your local environment. Open two separate terminal windows to host your execution loops:
 
 1. Backend Infrastructure Configuration (Terminal 1)
