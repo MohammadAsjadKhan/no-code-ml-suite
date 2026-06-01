@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- GLOBAL CROSS-BROWSER SCROLLBAR COMPATIBILITY --- */
+@layer base {
+  html, body {
+    /* SEMANTIC FIX: Implements standard W3C rules for Firefox compatibility */
+    scrollbar-width: thin;
+    scrollbar-color: #334155 #020617;
+    background-color: #0f172a; /* Prevents white background flashes on initial route loading frames */
+  }
+}
+
+/* --- LEGACY WEBKIT BROWSER IMPLEMENTATION (Chrome/Safari/Edge) --- */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px; /* SEMANTIC FIX: Stabilizes horizontal scroll heights for overflow data tables */
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Optional smooth scrolling behavior for interactive tab movements */
+html {
+  scroll-behavior: smooth;
+}
