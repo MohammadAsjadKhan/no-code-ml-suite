@@ -53,29 +53,30 @@ Follow these instructions to run the application in your local environment. Open
     # Navigate to the backend directory
     cd backend
     
-    # Initialize your virtual environment structure
-    python3 -m venv .venv
+    ```text Initialize your virtual environment structure
+       python3 -m venv .venv
+    ```
     
-    # Activate the environment path wrapper
-    # On macOS or Linux:
+    ### Activate the environment path wrapper
+     On macOS or Linux:
     source .venv/bin/activate
-    # On Windows (Command Prompt):
+    ### On Windows (Command Prompt):
     .venv\Scripts\activate
     
-    # Install essential deep learning and API framework binaries
+    ### Install essential deep learning and API framework binaries
     pip install -r requirements.txt
     
-    # Launch the live-reloading Uvicorn development loop
+    ### Launch the live-reloading Uvicorn development loop
     uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 2. Frontend Layout Compilation (Terminal 2)
 Navigate to your frontend repository root block, download node engine modules, and boot up the asset building pipelines:
-    # Navigate to the frontend directory
+    ### Navigate to the frontend directory
     cd frontend
     
-    # Download and map node dependencies
+    ### Download and map node dependencies
     npm install
     
-    # Run the local Vite development instance
+    ### Run the local Vite development instance
     npm run dev
 Once successfully loaded, navigate to http://localhost:5173 inside your web browser to interact with your dashboard space!
 
