@@ -1,8 +1,9 @@
-# No-Code Vision Suite: Dynamic CNN Classifier Studio
+<img width="1440" height="806" alt="Screenshot 2026-06-02 at 5 37 11 AM" src="https://github.com/user-attachments/assets/52bfedd1-79ee-4fde-af81-0a9accc9f867" /># No-Code Vision Suite: Dynamic CNN Classifier Studio
 
 A production-grade, full-stack, no-code deep learning dashboard that empowers users to build, configure, train, and test custom Convolutional Neural Networks (CNNs) directly from an interactive user interface. The platform bridges the gap between raw dataset operations and network training matrices by providing real-time telemetry streaming and automated evaluation pipelines.
 
 ---
+<img width="1440" height="806" alt="Screenshot 2026-06-02 at 5 37 11 AM" src="https://github.com/user-attachments/assets/8dd68e66-d7cd-485d-89df-bb7bd83e3cf5" />
 
 ## 🚀 Key Architectural Features
 
