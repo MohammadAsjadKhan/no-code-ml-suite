@@ -61,7 +61,7 @@ Follow these instructions to run the application in your local environment. Open
     ### Activate the environment path wrapper
      #### On macOS or Linux:
      ```source .venv/bin/activate ```
-    ### On Windows (Command Prompt):
+     #### On Windows (Command Prompt):
      ```.venv\Scripts\activate```
     
     ### Install essential deep learning and API framework binaries
@@ -79,6 +79,6 @@ Navigate to your frontend repository root block, download node engine modules, a
     
     ### Run the local Vite development instance
     ```npm run dev```
-Once successfully loaded, navigate to ```http://localhost:5173``` inside your web browser to interact with your dashboard space!
+#### Once successfully loaded, navigate to ```http://localhost:5173``` inside your web browser to interact with your dashboard space!
 
 Thank You!
